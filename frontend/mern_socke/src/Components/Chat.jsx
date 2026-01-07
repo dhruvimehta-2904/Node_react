@@ -9,7 +9,7 @@ const fetchChat = async()=>{
     try {
             
             const response =  await axios.get("/api/chat")
-                console.log(response.data);  
+                console.log("error response",response.data);  
                 setChat(response.data)
 
             }
